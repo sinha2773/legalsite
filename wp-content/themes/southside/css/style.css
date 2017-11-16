@@ -641,6 +641,7 @@ div.wpcf7 .screen-reader-response {
     border-radius: 5px;
     width: 100%;
     margin-bottom: 10px;
+    float: left;
 }
 .testimonial_profile_image{
     width: 20%;
@@ -654,7 +655,10 @@ div.wpcf7 .screen-reader-response {
     border-radius: 5px;
         margin-top: 13px;
 }
-.testimonail_profile_content{}
+.testimonail_profile_content{
+        width: 78%;
+    float: right;
+}
 .testimonail_profile_content p{
         text-align: justify;
         line-height: 20px;
@@ -1217,6 +1221,12 @@ div.wpcf7 .screen-reader-response {
 .card-header h5{
     color: #fff;
     font-size: 17px;
+}
+.card-header a{
+    color: #fff;
+}
+.card-header a:hover{
+    text-decoration: none;
 }
 .card-header ul{}
 .card-header ul li{

@@ -7,37 +7,37 @@
       <div id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> -->
                 <i class="fa fa-plus" aria-hidden="true"></i>   
                 <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>   
-              Compensation Law
+              <a href="<?php echo get_permalink('11'); ?>">Compensation Law</a> 
             </h5>
-             <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+             <!-- <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
               <div class="card-block">
-                <!-- <p></p> -->
+                <p></p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> -->
               <i class="fa fa-plus" aria-hidden="true"></i> 
               <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-              Professional Negligence
+              <a href="<?php echo get_permalink('13'); ?>">Professional Negligence</a>
             </h5>
-            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <!-- <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="card-block">
-                <!-- <p></p> -->
+                <p></p>
               </div>
-            </div>
+            </div> --> 
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-               Commercial And General Litigation
+               <a href="<?php echo get_permalink('15'); ?>">Commercial And General Litigation</a>
             </h5>
             <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="card-block">
@@ -52,22 +52,22 @@
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingfour">
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+            <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour"> -->
                 <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-              Conveyancing And Commercial Work
+              <a href="<?php echo get_permalink('23'); ?>">Conveyancing And Commercial Work</a>
             </h5>
-            <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
+            <!-- <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
               <div class="card-block">
-                <!-- <p></p> -->
+                <p></p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingfive">
             <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
               <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i> 
-              Wills And Estates
+              <a href="<?php echo get_permalink('25'); ?>">Wills And Estates</a>
             </h5>
             <div id="collapsefive" class="collapse" role="tabpanel" aria-labelledby="headingfive">
               <div class="card-block">

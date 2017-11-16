@@ -2,10 +2,10 @@
     get_header();
     // Template Name: Home Page
 ?>
-?>
+
 <?php 
-$i = isset($_SESSION['banner']) ? $_SESSION['banner'] : 1;
-$_SESSION['banner'] = $i==1 ? 2 : 1;
+    $i = isset($_SESSION['banner']) ? $_SESSION['banner'] : 1;
+    $_SESSION['banner'] = $i==1 ? 2 : 1;
 ?>
 <style type="text/css">
     .banner_section {
@@ -81,17 +81,6 @@ $_SESSION['banner'] = $i==1 ? 2 : 1;
             <div class="col-md-8">
                 <div class="about_information">
                     <?php the_content(); ?>
-<!-- <div class="wellcome_text common_title_color">
-<h3>Welcome to Southside Legal</h3>
-<p>Southside Legal Gold Coast is a law firm committed to helping you.</p>
-</div>
-<div class="how_can_help_text common_title_color">
-<h3>How can we help you ?</h3>
-<p>We will provide you with prompt advice and service. Most of the times you contact a lawyer you either have a problem or your rights and interests need protecting. We understand this and will ensure your dealings with us are helpful to you and provide you with a feeling of security. We strive to make you feel “looked after”. You will receive advice that is down to earth and realistic. We can assist you in numerous areas of law.<br><br>
-If you have a compensation claim, please click on the button in the top right hand corner of this page. For a better explanation of each area of law we can assist you with, see the areas of law shown on the left hand side. Click on the topic which suits your query.<br><br>
-We have experienced lawyers who understand the system and who will be able to guide you and protect you. We work with top level barristers in court matters and will ensure you achieve the best outcome for your situation. Your rights and interests are important to us and we will care for you.
-</p>
-</div> -->
                     <div class="audio_information">
                     <div class="audio_player">
                         <h2>Principal of Southside Legal talks to ABC following taxi driver case</h2>

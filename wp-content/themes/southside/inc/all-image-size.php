@@ -9,6 +9,8 @@ add_image_size('testimonial-image',146,119,true);
 
 add_image_size('our_team_image',146,119,true);
 
+add_image_size('area_image',91,24,true);
+
 
 
 
