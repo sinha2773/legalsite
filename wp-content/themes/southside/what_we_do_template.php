@@ -6,7 +6,7 @@
         $p = new WP_Query(array(
             'post_type' => 'page',
             'posts_per_page' => 1,
-            'page_id' =>147
+            'page_id' =>7
         ));
     ?>
     <?php 

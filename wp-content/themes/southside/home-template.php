@@ -29,12 +29,12 @@
                 </div>
                  <div class="col-md-4">
                     <div class="banner_section_content">
-                        <h2><a href="">Personal Injury</a></h2>
+                        <h2><a href="<?php echo the_permalink('166'); ?>">Personal Injury</a></h2>
                     </div>
                 </div>
                  <div class="col-md-4">
                     <div class="banner_section_content banner_section_content_margin_buttom">
-                        <h2><a href="">Deceased Estates & Wills</a></h2>
+                        <h2><a href="<?php echo the_permalink('168'); ?>">Deceased Estates & Wills</a></h2>
                     </div>
                     
                 </div>

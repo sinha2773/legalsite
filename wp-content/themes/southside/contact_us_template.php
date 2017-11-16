@@ -2,11 +2,24 @@
  get_header();
  // Template Name: Contact Us
 ?>
+      <?php 
+        $p = new WP_Query(array(
+            'post_type' => 'page',
+            'posts_per_page' => 1,
+            'page_id' =>44
+        ));
+    ?>
+    <?php 
+        if($p->have_posts()): 
+        while($p->have_posts()): 
+        $p->the_post();  
+    ?>
         <section class="common_banner_section">
             <div class="common_banner_images">
-              <img src="<?php echo get_template_directory_uri();?>/images/judge-header.png">
+              <?php the_post_thumbnail('testimonial-bg-image'); ?>
             </div>
-        </section>         
+        </section>
+    <?php endwhile; endif; ?>          
         <section class="contact_page">
           <div class="container">
             <div class="contact_page_information">
