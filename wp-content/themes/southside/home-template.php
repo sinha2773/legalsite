@@ -2,17 +2,17 @@
     get_header();
     // Template Name: Home Page
 ?>
-
 <?php 
-    $i = isset($_SESSION['banner']) ? $_SESSION['banner'] : 1;
-    $_SESSION['banner'] = $i==1 ? 2 : 1;
-?>
+ $src = get_the_post_thumbnail_url(5,'full');
+ ?>
+
 <style type="text/css">
     .banner_section {
-    background: url(http://projects.sinhabd.com/southsidelegal/images/banner-<?php echo $i;?>.jpg) no-repeat;
+    background: url(<?php echo $src; ?>) no-repeat;
     background-size: cover;
 }
 </style>
+
 <section class="banner_section">
     
     <div class="container">

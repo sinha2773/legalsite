@@ -2,6 +2,7 @@
 
 add_theme_support('post-thumbnails');
 
+add_image_size('banner_image',1300,475,true);
 
 add_image_size('testimonial-bg-image',1400,300,true);
 
