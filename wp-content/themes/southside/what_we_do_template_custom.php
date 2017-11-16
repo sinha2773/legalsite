@@ -1,6 +1,6 @@
 <?php 
  get_header();
-  // Template Name: What We Do
+  // Template Name: What We Do custom
 ?>
         <section class="common_banner_section">
             <div class="common_banner_images">

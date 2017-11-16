@@ -2,11 +2,24 @@
  get_header();
   // Template Name: What We Do
 ?>
+<?php 
+        $p = new WP_Query(array(
+            'post_type' => 'page',
+            'posts_per_page' => 1,
+            'page_id' =>147
+        ));
+    ?>
+    <?php 
+        if($p->have_posts()): 
+        while($p->have_posts()): 
+        $p->the_post();  
+    ?>
         <section class="common_banner_section">
             <div class="common_banner_images">
-              <img src="<?php echo get_template_directory_uri();?>/images/judge-header.png">
+              <?php the_post_thumbnail('testimonial-bg-image'); ?>
             </div>
-        </section>         
+        </section>
+    <?php endwhile; endif; ?>       
         <section class="what_we_do_section">
             <div class="container">
               <div class="what_we_do_main">
@@ -20,8 +33,7 @@
                           <h3>What We Do</h3>                                
                         </div>
                         <div class="what_we_do_content">
-                          <div class="row">
-                            
+                          <div class="row">                            
                             <div class="col-md-3">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
@@ -31,7 +43,6 @@
                                 <a href="<?php echo get_permalink('11'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                             </div>
-                            
                             <div class="col-md-3">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
@@ -58,7 +69,9 @@
                                 <h3>Debt Collection</h3>
                                 <a href="<?php echo get_permalink('17'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div>
+                            </div> 
+                          </div>
+                            <div class="row">
                             <div class="col-md-6">
                               <div class="what_we_do_info what_we_do_info_bottom">
                                 <div class="what_we_do_images">
@@ -76,7 +89,9 @@
                                 <h3>Commercial And General Litigation</h3>
                                 <a href="<?php echo get_permalink('15'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div>  
+                            </div> 
+                            </div>
+                            <div class="row">
                             <div class="col-md-3">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
@@ -112,8 +127,8 @@
                                 <h3>Contesting Wills</h3>
                                 <a href="<?php echo get_permalink('29'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div>  
-                          </div>                             
+                            </div>
+                            </div>                    
                         </div>                          
                       </div> 
                     </div>                    
