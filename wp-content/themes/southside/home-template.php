@@ -10,7 +10,7 @@
     .banner_section {
     background: url(<?php echo $src; ?>) no-repeat;
     background-size: cover;
-}
+    }
 </style>
 
 <section class="banner_section">

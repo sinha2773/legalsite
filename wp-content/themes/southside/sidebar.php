@@ -8,8 +8,8 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
             <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> -->
-                <i class="fa fa-plus" aria-hidden="true"></i>   
-                <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>   
+                <!-- <i class="fa fa-plus" aria-hidden="true"></i>   
+                <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>   --> 
               <a href="<?php echo get_permalink('11'); ?>">Compensation Law</a> 
             </h5>
              <!-- <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -22,8 +22,8 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
             <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> -->
-              <i class="fa fa-plus" aria-hidden="true"></i> 
-              <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
+              <!-- <i class="fa fa-plus" aria-hidden="true"></i> 
+              <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i> -->
               <a href="<?php echo get_permalink('13'); ?>">Professional Negligence</a>
             </h5>
             <!-- <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -53,7 +53,7 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingfour">
             <h5> <!-- <class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour"> -->
-                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
+                <!-- <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i> -->
               <a href="<?php echo get_permalink('23'); ?>">Conveyancing And Commercial Work</a>
             </h5>
             <!-- <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
