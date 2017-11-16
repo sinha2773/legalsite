@@ -26,7 +26,10 @@
             <div class="row">
               <div class="col-xs-12 col-sm-8 col-md-8">
                 <div class="contactus_bottom_information">
-                  <form class="form-horizontal" action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+                  
+                  <?php echo do_shortcode( '[contact-form-7 id="174" title="Contact form"]'); ?>
+
+                  <!-- <form class="form-horizontal" action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
                     <div class="row">
                       <div class="col-xs-12 col-sm-6 col-md-6 contact_left_div">
                         <div class="form-group model">
@@ -86,7 +89,7 @@
                         <button type="submit" class=" contact_button">Send Message</button>
                       </div>
                     </div>
-                  </form>
+                  </form> -->
                 </div>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-4">

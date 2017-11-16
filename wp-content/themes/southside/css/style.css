@@ -1191,9 +1191,15 @@ div.wpcf7 .screen-reader-response {
     margin: 0px;
     font-size: 24px;
 }
-.all_page_content_information{}
-.{}
-.{}
+.all_page_content_information input{
+    
+}
+.all_page_content_information .wpcf7 form{
+    
+}
+.all_page_content_information .wpcf7{
+    
+}
 .{}
 
 /*page.php style end*/
@@ -1594,7 +1600,7 @@ ul.dropdown-menu li:hover.menu-item-has-children::before {
 .main_left_contact_info{
     background: #fff;
     padding: 20px 30px;
-    min-height: 570px;
+    min-height: 830px;
     border-left: 1px solid rgba(128, 128, 128, 0.2);
     border-top: 1px solid rgba(128, 128, 128, 0.2);
     box-shadow: 6px 8px 16px 0 rgba(46, 61, 73, .3);
@@ -1669,6 +1675,7 @@ background: #3B5997;
     border-top: 1px solid rgba(128, 128, 128, 0.2);
     box-shadow: 6px 8px 16px 0 rgba(46, 61, 73, .3);
     transition: 0.3s all ease;
+    width: 100%;
 }
 .contactus_bottom_information:hover{
      box-shadow: 1px 3px 6px 0 rgba(46, 61, 73, .3);
@@ -1681,7 +1688,37 @@ background: #3B5997;
     border: 1px solid #d5d5d5;
     position: relative;
     border-radius: 4px;
-    padding: 2px 10px;
+    padding: 8px 10px 8px 20px;
+    width: 100% !important;
+    margin-top: 5px;
+}
+.contactus_bottom_information textarea{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 5px;
+}
+.contactus_bottom_information .contact_button{
+    border: 1px solid #53ACD3;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px 65px;
+    font-size: 20px;
+    background: #53ACD3;
+    color: #fff;
+    width: 30% !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.contactus_bottom_information form .contact_button{
+    margin: 0 auto !important;
+}
+label {
+   
+    width: 100%;
+  
+}
+.{
+    
 }
 .contact_left_div input{
     width: 95%;
