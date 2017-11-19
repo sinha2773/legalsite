@@ -116,7 +116,7 @@
             <div class="sideber_contact_form_body">
                 <p class="text_center">Free Enquiry, no obligation</p>
                 <h3 class="text_center">07 5598 3266</h3>
-                <?php echo do_shortcode( '[contact-form-7 id="206" title="Quick Contact"]'); ?>
+                <?php echo do_shortcode( '[contact-form-7 id="193" title="Quick Contact"]'); ?>
               <!-- <form>                
                 <input type="text" class="form-control" name="" placeholder="Name">
                 <input type="email" class="form-control" name="" placeholder="E-mail">

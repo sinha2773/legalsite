@@ -27,7 +27,7 @@
               <div class="col-xs-12 col-sm-8 col-md-8">
                 <div class="contactus_bottom_information">
                   
-                  <?php echo do_shortcode( '[contact-form-7 id="174" title="Contact form"]'); ?>
+                  <?php echo do_shortcode( '[contact-form-7 id="170" title="Contact form 1"]'); ?>
 
                   <!-- <form class="form-horizontal" action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
                     <div class="row">
