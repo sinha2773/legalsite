@@ -23,7 +23,7 @@
     padding: 0px 4px;
 }
 .nav>li>a:hover {
-	color: #811e02 !important;
+	color: #F4BE37 !important;
 }
 .nav>li {
    
@@ -31,7 +31,7 @@
        margin-left: 7px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #811e02;
+    color: #F4BE37;
      background-color: unset; 
 }
 .nav>li:last-child {
@@ -55,7 +55,7 @@
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #811e02;
+    background-color: #F4BE37;
     outline: 0;
 }
 .navbar {
@@ -68,13 +68,13 @@
 }
 .dropdown-menu>li>a:hover {
 	background:#FFFFFF;
-	color: #811e02;
+	color: #F4BE37;
 	/*border: 1px solid #fff;*/
 }
 .dropdown-menu {
-    border: 1px solid #811e02;
-    padding: 0px;    
-    background: #811e02;
+        border: 1px solid #F4BE37;
+    padding: 0px;
+    background: #F4BE37;
     
 }
 .different_links{
@@ -1200,14 +1200,43 @@ div.wpcf7 .screen-reader-response {
 .all_page_content_information .wpcf7{
     
 }
-.{}
-
+.all_page_content_title {
+    /*text-align: center;
+    padding: 20px;
+    background: #F8F8F8;
+    color: #000;
+    margin-bottom: 30px;*/
+}
+.all_page_content_title h2 {
+    margin: 0px;
+}
+.all_page_content_information {
+   
+     overflow: hidden;
+}
+.single_page_content_image img {
+    width: auto;
+    height: auto;
+    float: left;
+    max-width: 400px;
+    margin-right: 10px;
+}
+.single_title{
+    margin-bottom: 30px;
+}
+.single_page_content{
+    background: #f8f8f8;
+    padding: 30px;
+}
+.single_page_content p{
+    text-align: justify;
+}
 /*page.php style end*/
 
 .right_sideber_buttons{}
 .sidebar_area_of_practice{}
 .area_title{
-    background: #49AFCD ;
+    background: #170066 ;
     padding: 15px 10px;
     
     
@@ -1219,8 +1248,23 @@ div.wpcf7 .screen-reader-response {
     font-size: 24px;
     color: #fff !important;
 }
+.faq_information{
+    background: #f8f8f8;
+    padding: 20px;
+}
+.faq_header{
+    background: #7E7E7E !important;
+}
+.faq_header h5{
+    cursor: pointer;
+}
+.faq_content{}
+.faq_content p{
+    color: #fff;
+    text-align: justify;
+}
 .card-header{
-    background: #49AFCD;
+    background: #170066;
     padding: 10px 10px 10px 20px;
    
     margin-bottom: 5px;
@@ -1245,6 +1289,85 @@ div.wpcf7 .screen-reader-response {
 }
 .card-header ul li a:hover{
     text-decoration: none;
+}
+.blog_section {
+    background: #DCDCDC;
+}
+.main_blog_div {
+    margin: 60px 0px;
+}
+.blog_right_sidebar {
+    background: #F8F8F8;
+    padding: 30px 10px;
+    min-height: 499px;
+}
+.blog_post_list {
+    background: #F8F8F8;
+    padding: 30px 10px;
+    overflow: hidden;
+}
+.blog_header_content {
+    text-align: center;
+    background: #F8F8F8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+.blog_header_content h2 {
+    color: #1BACB9;
+    margin: 0px;
+}
+.blog_right_sidebar_content p {
+    font-size: 22px;
+}
+.blog_right_sidebar_content ul {
+    margin-top: 15px;
+    list-style-image: url(../images/blue-tick-icon-1.png);
+}
+.blog_post_item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.blog_post_item_images_text_title {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.blog_post_item_images_text_title h3 {
+    color: #1BACB9;
+    margin: 5px 0px;
+    font-size: 22px;
+}
+.blog_post_item_images_text_body {
+    padding: 10px;
+}
+.blog_post_item_images_text_body p {
+    text-align: justify;
+}
+.blog_post_item_images_text_body_details {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.blog_post_item_images_text_body_details a {
+    background: #1BACB9;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.blog_post_item_images_text_date_time {
+    padding: 10px;
+}
+.blog_post_item_images img {
+    width: 100%;
+    min-height: 150px;
+}
+.blog_post_date {
+    float: right;
+}
+.all_page_content {
+    background: #DCDCDC;
 }
 ul.dropdown-menu ul.dropdown-menu {
     left: 100%;

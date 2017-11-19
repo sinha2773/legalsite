@@ -29,12 +29,12 @@
                 </div>
                  <div class="col-md-4">
                     <div class="banner_section_content">
-                        <h2><a href="<?php echo the_permalink('166'); ?>">Personal Injury</a></h2>
+                        <h2><a href="<?php echo the_permalink('176'); ?>">Personal Injury</a></h2>
                     </div>
                 </div>
                  <div class="col-md-4">
                     <div class="banner_section_content banner_section_content_margin_buttom">
-                        <h2><a href="<?php echo the_permalink('168'); ?>">Deceased Estates & Wills</a></h2>
+                        <h2><a href="<?php echo the_permalink('178'); ?>">Deceased Estates & Wills</a></h2>
                     </div>
                     
                 </div>
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="banner_section_content banner_section_content_bottom">
-                        <h2><a href="<?php echo the_permalink('117'); ?>">Civil Litigation including Debt Recovery</a></h2>
+                        <h2><a href="<?php echo the_permalink('180'); ?>">Civil Litigation including Debt Collection</a></h2>
                     </div>
                 </div>
                 <div class="col-md-6">

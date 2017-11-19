@@ -33,17 +33,8 @@
                           <h3>What We Do</h3>                                
                         </div>
                         <div class="what_we_do_content">
-                          <div class="row">                            
-                            <div class="col-md-3">
-                              <div class="what_we_do_info">
-                                <div class="what_we_do_images">
-                                  <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                </div>
-                                <h3>Compensation Law</h3>
-                                <a href="<?php echo get_permalink('11'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                            </div>
-                            <div class="col-md-3">
+                          <div class="row">
+                            <div class="col-md-4">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
@@ -51,25 +42,26 @@
                                 <h3>Professional Negligence</h3>
                                 <a href="<?php echo get_permalink('13'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div>
-                            <div class="col-md-3">
+                            </div>                            
+                            <div class="col-md-4">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
-                                <h3>Wills And Estates</h3>
-                                <a href="<?php echo get_permalink('25'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <h3>Personal Injury</h3>
+                                <a href="<?php echo get_permalink('176'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div>
-                            <div class="col-md-3">
+                            </div>                            
+                            <div class="col-md-4">
                               <div class="what_we_do_info">
                                 <div class="what_we_do_images">
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
-                                <h3>Debt Collection</h3>
-                                <a href="<?php echo get_permalink('17'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <h3>Deceased Estates & Wills</h3>
+                                <a href="<?php echo get_permalink('178'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
-                            </div> 
+                            </div>
+                            
                           </div>
                             <div class="row">
                             <div class="col-md-6">
@@ -77,8 +69,37 @@
                                 <div class="what_we_do_images">
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
-                                <h3>Deceased Estate Administration</h3>
-                                <a href="<?php echo get_permalink('31'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <h3>Civil Litigation including Debt Collection</h3>
+                                <a href="<?php echo get_permalink('180'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-4">
+                                  <div class="what_we_do_info">
+                                    <div class="what_we_do_images">
+                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
+                                    </div>
+                                    <h3>Debt Collection</h3>
+                                    <a href="<?php echo get_permalink('17'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="what_we_do_info">
+                                    <div class="what_we_do_images">
+                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
+                                    </div>
+                                    <h3>Insurance Claims</h3>
+                                    <a href="<?php echo get_permalink('19'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="what_we_do_info">
+                                    <div class="what_we_do_images">
+                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
+                                    </div>
+                                    <h3>Contractual Disputes</h3>
+                                    <a href="<?php echo get_permalink('21'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                  </div>
+                                </div> 
                               </div>
                             </div>
                             <div class="col-md-6">
@@ -86,49 +107,11 @@
                                 <div class="what_we_do_images">
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
-                                <h3>Commercial And General Litigation</h3>
-                                <a href="<?php echo get_permalink('15'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <h3>Tourism Law</h3>
+                                <a href="<?php echo get_permalink('103'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                             </div> 
-                            </div>
-                            <div class="row">
-                            <div class="col-md-3">
-                              <div class="what_we_do_info">
-                                <div class="what_we_do_images">
-                                  <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                </div>
-                                <h3>Insurance Claims</h3>
-                                <a href="<?php echo get_permalink('19'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                            </div>
-                            <div class="col-md-3">
-                              <div class="what_we_do_info">
-                                <div class="what_we_do_images">
-                                  <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                </div>
-                                <h3>Contractual Disputes</h3>
-                                <a href="<?php echo get_permalink('21'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                            </div>
-                            <div class="col-md-3">
-                              <div class="what_we_do_info">
-                                <div class="what_we_do_images">
-                                  <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                </div>
-                                <h3>Wills Preparation</h3>
-                                <a href="<?php echo get_permalink('27'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                            </div>
-                            <div class="col-md-3">
-                              <div class="what_we_do_info">
-                                <div class="what_we_do_images">
-                                  <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                </div>
-                                <h3>Contesting Wills</h3>
-                                <a href="<?php echo get_permalink('29'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                            </div>
-                            </div>                    
+                          </div>           
                         </div>                          
                       </div> 
                     </div>                    

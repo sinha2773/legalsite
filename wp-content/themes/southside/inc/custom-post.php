@@ -38,6 +38,19 @@
 	  	)	    
 	  ); 
 
+	register_post_type( 'faq',array(
+	  		'label'   => 'Faq',
+	  		'labels'  => array(
+	  				'name' => 'Faqs',
+	  				'singular_name' => 'faq',
+	  				'add_new' => 'New faq'	  				
+	  			),
+	  		'public' => true,
+	  		'menu_icon' => 'dashicons-images-alt',
+	  		'supports' => array('title','editor','thumbnail','custom-files','excerpt','custom-fields'),
+	  	)	    
+	  ); 
+
 	}
 	add_action( 'init', 'create_custom_post' );
 
