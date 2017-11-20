@@ -49,7 +49,7 @@
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
                                 <h3>Personal Injury</h3>
-                                <a href="<?php echo get_permalink('176'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <a href="<?php echo get_permalink('166'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                             </div>                            
                             <div class="col-md-4">
@@ -58,7 +58,7 @@
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
                                 <h3>Deceased Estates & Wills</h3>
-                                <a href="<?php echo get_permalink('178'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <a href="<?php echo get_permalink('168'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                             </div>
                             
