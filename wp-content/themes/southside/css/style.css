@@ -876,7 +876,9 @@ div.wpcf7 .screen-reader-response {
     margin:0px;
 }
 .sideber_contact_form_body{}
-.sideber_contact_form_body p{}
+.sideber_contact_form_body p{
+    text-align: center;
+}
 .sideber_contact_form_body h3{
     margin: 5px;
     font-size: 18px;
@@ -885,7 +887,9 @@ div.wpcf7 .screen-reader-response {
      padding: 5px 5px 5px 10px;
     width: 100%;
     border-radius: 5px;
-    /*border: 1px solid #FFFFFF;*/
+    border: 1px solid #d5d5d5 !important;
+    /*border-right: 5px solid #E7E7E7 !important;*/
+    position: relative;
 
 }
 
@@ -894,11 +898,18 @@ div.wpcf7 .screen-reader-response {
     width: 100%;
     border-radius: 5px;
     height: 90px !important;
+    margin-bottom: 8px;
+     border: 1px solid #d5d5d5 !important;
 }
 .sideber_contact_form_body .quick_button {
-    width: 50%;
-    padding: 5px;
-    margin: 0 auto;
+        width: 50%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    background: #811F02;
+    color: #fff;
+    border: 1px solid #811F02;
+    border-radius: 5px;
 }
 .sideber_contact_form_body label{
 
@@ -1528,19 +1539,49 @@ ul.dropdown-menu li:hover.menu-item-has-children::before {
     border-radius: 5px;
    
 }
+.right_sideber_body .quick_name, .quick_email, .quick_phone {
+    padding: 10px 8px 9px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5 !important;
+    /* border-right: 5px solid #E7E7E7 !important; */
+   
+    /*margin-bottom: 10px;*/
+}
+.right_sideber_body .quick_textarea {
+    padding: 5px 5px 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    height: 180px !important;
+    margin-bottom: 10px;
+        border: 1px solid #d5d5d5 !important;
+}
+.right_sideber_body .quick_button {
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto !important;
+    font-size: 16px;
+    background: #811F02;
+    color: #fff;
+    border: 1px solid #811F02;
+    border-radius: 5px;
+    margin-top: 10px !important;
+}
 .right_sideber_body p{
 	color: #252525;
     font-size: 16px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .right_sideber_body h3{
 	    color: #252525;
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 18px;
+    text-align: center;
 }
 .right_sideber_body input{
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 }
 .right_sideber_body textarea{
 	margin-bottom: 6px;

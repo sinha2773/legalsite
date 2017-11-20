@@ -17,14 +17,14 @@
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
             <h5> 
-              <a href="<?php echo get_permalink('176'); ?>">Personal Injury</a>
+              <a href="<?php echo get_permalink('166'); ?>">Personal Injury</a>
             </h5>            
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
             <h5> 
-              <a href="<?php echo get_permalink('178'); ?>">Deceased Estates & Wills</a>
+              <a href="<?php echo get_permalink('168'); ?>">Deceased Estates & Wills</a>
             </h5>            
           </div>
         </div>
