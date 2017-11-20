@@ -892,7 +892,24 @@ div.wpcf7 .screen-reader-response {
     position: relative;
 
 }
+.sideber_contact_form_body .quick_email {
+     padding: 5px 5px 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5 !important;
+    /*border-right: 5px solid #E7E7E7 !important;*/
+    position: relative;
 
+}
+.sideber_contact_form_body .quick_phone {
+     padding: 5px 5px 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5 !important;
+    /*border-right: 5px solid #E7E7E7 !important;*/
+    position: relative;
+
+}
 .sideber_contact_form_body .quick_textarea{
         padding: 5px 5px 5px 10px;
     width: 100%;
@@ -1211,6 +1228,9 @@ div.wpcf7 .screen-reader-response {
     color: #fff;
     padding: 20px;
 }
+.archive_title{
+    margin-bottom: 30px;
+}
 .all_page_content_title h2{
     margin: 0px;
     font-size: 24px;
@@ -1254,6 +1274,10 @@ div.wpcf7 .screen-reader-response {
 }
 .single_page_content p{
     text-align: justify;
+}
+.all_category_content {
+    background: #f8f8f8;
+    padding: 20px;
 }
 /*page.php style end*/
 
@@ -1385,7 +1409,7 @@ div.wpcf7 .screen-reader-response {
 }
 .blog_post_item_images img {
     width: 100%;
-    min-height: 150px;
+    height: 150px;
 }
 .blog_post_date {
     float: right;
@@ -1548,6 +1572,7 @@ ul.dropdown-menu li:hover.menu-item-has-children::before {
    
     /*margin-bottom: 10px;*/
 }
+
 .right_sideber_body .quick_textarea {
     padding: 5px 5px 5px 10px;
     width: 100%;

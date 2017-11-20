@@ -70,7 +70,7 @@
                                   <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
                                 </div>
                                 <h3>Civil Litigation including Debt Collection</h3>
-                                <a href="<?php echo get_permalink('180'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <a href="<?php echo get_permalink('173'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                               <div class="row">
                                 <div class="col-md-4">

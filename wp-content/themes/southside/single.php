@@ -3,7 +3,7 @@
         $p = new WP_Query(array(
             'post_type' => 'page',
             'posts_per_page' => 1,
-            'page_id' =>76
+            'page_id' =>42
         ));
     ?>
     <?php 
@@ -33,7 +33,7 @@
 	                        	<div class="single_page_content_image">
 	                        		<?php the_post_thumbnail(); ?>
 	                        	</div>	                        
-	                        	<p><?php the_content(); ?></p>
+	                        	<?php the_content(); ?>
 	                        </div>
 	                    </div>
 	                </div>
