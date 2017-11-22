@@ -222,7 +222,12 @@
     margin-top: 15px;
     
 }
-
+.personal_injuri_banner{
+    margin-top: 70px;
+    background: blue;
+    width: 100%;
+    height: 100px;
+}
 .item img{
 	width: 100%;
 	height: 450px;
@@ -1300,14 +1305,36 @@ div.wpcf7 .screen-reader-response {
     color: #fff !important;
 }
 .faq_information{
-    background: #f8f8f8;
+    background: #F6F6F6;
     /*padding: 20px;*/
 }
+.faq_title{
+        text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.faq_title h2{
+    margin: 0px;
+    color: red;
+    font-family: StagMedium;
+    font-size: 32px !important;
+    font-weight: 500;
+}
 .faq_header{
-    background: #7E7E7E !important;
+    background: unset !important;
+    border-top: 1px solid #c4c4c4;
 }
 .faq_header h5{
     cursor: pointer;
+    color: #00001E !important;
+}
+.faq_header p{
+    color: #424242 !important;
+}
+.faq_header i{
+    color: red !important;
 }
 .faq_content{}
 .faq_content p{
@@ -1428,13 +1455,13 @@ ul.dropdown-menu li.menu-item-has-children::before {
     content: '\f105';
     position: absolute;
     right: 10px;
-    color: #fff;
+    color: #000;
     top: 7px;
     font-family: FontAwesome
 }
 ul.dropdown-menu li:hover.menu-item-has-children::before {
     
-    color: #811e02 !important;
+    color: #000 !important;
     
 }
 .home_and_hospital{
