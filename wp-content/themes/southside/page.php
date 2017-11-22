@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
-<?php if(!is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims'))): ?>	
+<?php if(!is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims','links'))): ?>	
 <section class="common_banner_section">
     <div class="common_banner_images">
       <?php the_post_thumbnail(); ?>
     </div>
 </section>
 <?php endif; ?>
-<?php if(is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims'))): ?>
+<?php if(is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims','links'))): ?>
 <section class="personal_injuri_banner">
    
 </section>
