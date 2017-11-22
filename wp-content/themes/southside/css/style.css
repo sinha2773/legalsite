@@ -1355,8 +1355,9 @@ div.wpcf7 .screen-reader-response {
     color: #fff;
 }
 .card-header a:hover{
-    text-decoration: none;
+    
 }
+.card-block a:hover{}
 .card-header ul{}
 .card-header ul li{
     color: #fff;
@@ -1366,7 +1367,7 @@ div.wpcf7 .screen-reader-response {
     font-size: 15px;
 }
 .card-header ul li a:hover{
-    text-decoration: none;
+    
 }
 .blog_section {
     background: #DCDCDC;
