@@ -1287,7 +1287,7 @@ div.wpcf7 .screen-reader-response {
 .right_sideber_buttons{}
 .sidebar_area_of_practice{}
 .area_title{
-    background: #170066 ;
+    background: #323C50;
     padding: 15px 10px;
     
     
@@ -1301,7 +1301,7 @@ div.wpcf7 .screen-reader-response {
 }
 .faq_information{
     background: #f8f8f8;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 .faq_header{
     background: #7E7E7E !important;
@@ -1315,7 +1315,7 @@ div.wpcf7 .screen-reader-response {
     text-align: justify;
 }
 .card-header{
-    background: #170066;
+    background: #323C50;
     padding: 10px 10px 10px 20px;
    
     margin-bottom: 5px;

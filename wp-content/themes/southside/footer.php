@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    <p>Southside Legal Gold Coast © 2015 All Right Reserved.</p>
+                    <p>Southside Legal Gold Coast © 2017 All Right Reserved.</p>
                 </div>
             </div>
         </footer>

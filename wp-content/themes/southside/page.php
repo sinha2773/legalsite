@@ -25,6 +25,8 @@
 	                        		<div class="all_page_content_information">
 	                        			<?php the_content(); ?>
 	                        		</div>
+
+	                        		<?php include('faq_section.php'); ?>
 	                        	</div>
 	                        </div>
 	                    </div>

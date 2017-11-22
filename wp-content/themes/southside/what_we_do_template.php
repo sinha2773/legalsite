@@ -30,7 +30,8 @@
                     <div class="col-md-8">                      
                       <div class="what_we_do_information">                            
                         <div class="what_we_do_information_title common_title_color">
-                          <h3>What We Do</h3>                                
+                          <h3>What We Do</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>                                
                         </div>
                         <div class="what_we_do_content">
                           <div class="row">
@@ -61,7 +62,6 @@
                                 <a href="<?php echo get_permalink('168'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                             </div>
-                            
                           </div>
                             <div class="row">
                             <div class="col-md-6">
@@ -71,36 +71,7 @@
                                 </div>
                                 <h3>Civil Litigation including Debt Collection</h3>
                                 <a href="<?php echo get_permalink('173'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <div class="what_we_do_info">
-                                    <div class="what_we_do_images">
-                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                    </div>
-                                    <h3>Debt Collection</h3>
-                                    <a href="<?php echo get_permalink('17'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                  </div>
-                                </div>
-                                <div class="col-md-4">
-                                  <div class="what_we_do_info">
-                                    <div class="what_we_do_images">
-                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                    </div>
-                                    <h3>Insurance Claims</h3>
-                                    <a href="<?php echo get_permalink('19'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                  </div>
-                                </div>
-                                <div class="col-md-4">
-                                  <div class="what_we_do_info">
-                                    <div class="what_we_do_images">
-                                      <img src="<?php echo get_template_directory_uri();?>/images/title-icon-1.png">
-                                    </div>
-                                    <h3>Contractual Disputes</h3>
-                                    <a href="<?php echo get_permalink('21'); ?>">Read More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                  </div>
-                                </div> 
-                              </div>
+                              </div>                              
                             </div>
                             <div class="col-md-6">
                               <div class="what_we_do_info what_we_do_info_bottom">
@@ -112,7 +83,8 @@
                               </div>
                             </div> 
                           </div>           
-                        </div>                          
+                        </div>
+                        <?php include ('faq_section.php'); ?>                          
                       </div> 
                     </div>                    
                 </div>

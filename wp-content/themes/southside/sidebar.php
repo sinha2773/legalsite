@@ -16,16 +16,37 @@
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
-            <h5> 
-              <a href="<?php echo get_permalink('166'); ?>">Personal Injury</a>
-            </h5>            
+            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
+               <a href="<?php echo get_permalink('180'); ?>">Personal Injury</a>
+            </h5>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="card-block">
+                <ul>
+                  <li><a href="<?php echo get_permalink('216'); ?>">Motor Vehicle Accidents</a></li>
+                  <li><a href="<?php echo get_permalink('218'); ?>">Work Injuries</a></li>
+                  <li><a href="<?php echo get_permalink('220'); ?>">Public Liability Claims</a></li>
+                  <li><a href="<?php echo get_permalink('222'); ?>">Disability Insurance Claims</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
-            <h5> 
-              <a href="<?php echo get_permalink('168'); ?>">Deceased Estates & Wills</a>
-            </h5>            
+            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
+               <a href="<?php echo get_permalink('180'); ?>">Deceased Estates & Wills</a>
+            </h5>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="card-block">
+                <ul>
+                  <li><a href="<?php echo get_permalink('17'); ?>">Wills Preparation</a></li>
+                  <li><a href="<?php echo get_permalink('19'); ?>">Contesting Wills</a></li>
+                  <li><a href="<?php echo get_permalink('21'); ?>">Deceased Estate Administration</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
