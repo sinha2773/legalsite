@@ -84,7 +84,7 @@
                             </div> 
                           </div>           
                         </div>
-                        <?php include ('faq_section.php'); ?>                          
+                                                  
                       </div> 
                     </div>                    
                 </div>

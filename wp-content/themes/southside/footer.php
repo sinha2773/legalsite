@@ -149,7 +149,7 @@
         <script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
         
         <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
-
+         <script src="<?php echo get_template_directory_uri();?>/js/scrolling-nav.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

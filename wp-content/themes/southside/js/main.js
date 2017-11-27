@@ -37,6 +37,15 @@ jQuery(document).ready(function($){
     $("html, body").animate({
     scrollTop:0},500)
    });
+    // Smooth scrolling 
+    $('a.scrollto').on('click', function(e){
+          //store hash
+          var target = this.hash;    
+          e.preventDefault();
+      $('body').scrollTo(target, 800, {offset: -80, 'axis':'y'});
+      
+    });
+    
 
    // FAQ Plus and Minus toggle
     $('.card-header h5').click(function(){

@@ -27,49 +27,62 @@
                   <div class="col-md-4">
                         <?php get_sidebar(); ?>
                     </div>
-                    <div class="col-md-8">
-                        <div class="our_team_information">                            
-                          <div class="our_team_information_title common_title_color">
-                              <h3>Key Staff</h3>                                
-                          </div>                         
-                            <div class="attorney_information">
-                              <div class="row">
-                                <?php 
-                                    $our_team_store = new WP_Query(array(
-                                        'post_type' => 'our_team',
-                                        'posts_per_page' => 4                                        
-                                    ));
-                                ?>
-                                <?php 
-                                    if($our_team_store ->have_posts()): 
-                                    while($our_team_store->have_posts()) :
-                                     $our_team_store->the_post(); 
-                                ?>
-                                <div class="col-md-6 col-sm-6">
-                                  <div class="attorney_image_hover_effect">
-                                    <div class="attorney_content">
-                                    <div class="attorney_content_images">
-                                      <?php the_post_thumbnail('our_team_image'); ?>
-                                    </div>
-                                    <div class="attorney_content_images_text">
-                                      <h3><?php the_title(); ?></h3>
-                                      <p><?php echo get_post_meta(get_the_ID(),'designation',true) ?></p>
-                                      </div>
-                                    </div>
-                                    <div class="project-content-wrap attorney_content_effect">
-                                      <div class="project_title_bottom attorney_title"><?php the_title(); ?></div>
-                                      <div class="project-content attorney_body"><?php echo get_trim_content(35, true); ?></div>
-                                      <div class="project-link-wrap attorney_bottom_link">
-                                        <a class="project-link-wrap" href="<?php the_permalink(); ?>">Details</a>
-                                      </div>
-                                    </div>
-                                  </div>
+                    <div class="single_side_margin">
+                      
+                      
+                      <div class="col-md-8">
+                        <div class="key_staf">
+                          <h2>Key Staff</h2>
+                        </div>
+                        <?php 
+                        $p = new WP_Query(array(
+                            'post_type' => 'our_team',
+                            'posts_per_page' => -1,
+                            
+                        ));
+                      ?>
+                      <?php 
+                          if($p->have_posts()): 
+                          while($p->have_posts()): 
+                          $p->the_post();  
+                      ?>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="solicitor_all_content">
+                              <div class="solicitor_image_designation">
+                                <div class="solicitor_images">
+                                  <?php the_post_thumbnail(); ?>
+                                </div>                         
+                                <div class="solicitor_designation">
+                                  <h4><?php echo get_post_meta(get_the_ID(),'degree',true) ?></h4>
+                                  <h2><?php the_title(); ?></h2>
+                                  <h3><?php echo get_post_meta(get_the_ID(),'designation',true) ?></h3>
+                                  <span><i class="fa fa-linkedin" aria-hidden="true"></i> <a href=""><?php echo get_post_meta(get_the_ID(),'linked_in',true) ?></a> </span>
+                                  <p>Email:<a href="mailto:wrc@southsidelegal.com.au"><?php echo get_post_meta(get_the_ID(),'email',true) ?></a>  
+                                      </p>
                                 </div>
-                                <?php endwhile; endif; ?>                                
                               </div>
+                              <div class="soli_content">
+                                <?php the_content(); ?>
+                              </div>
+                              
                             </div>
-                        </div> 
-                    </div>                    
+                            
+                          </div>
+                          </div>
+                          <?php endwhile; endif; ?>  
+                        </div>
+                        <!-- <div class="row">
+                          <div class="col-md-12">
+                            <div class="solicitor_details">
+                              <p><?php //the_content(); ?></p>
+                            </div>
+                          </div>
+                        </div>  -->
+                                           
+                    </div>
+                  
+                </div>                    
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-<div class="faq_information">
+<div class="faq_information" id="faq">
   <div class="faq_title">
     <h2>Frequently Asked Questions</h2>
   </div>

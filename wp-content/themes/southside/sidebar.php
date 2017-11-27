@@ -16,9 +16,10 @@
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
+            <a href="<?php echo get_permalink('166'); ?>" class="personal_injury">Personal Injury</a>
             <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-               <a href="<?php echo get_permalink(''); ?>">Personal Injury</a>
+                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
+               
             </h5>
             <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="card-block">
@@ -34,9 +35,10 @@
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingThree">
+            <a href="<?php echo get_permalink('168'); ?>" class="personal_injury">Deceased Estates & Wills</a>
             <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-               <a href="<?php echo get_permalink(''); ?>">Deceased Estates & Wills</a>
+                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
+               
             </h5>
             <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="card-block">
@@ -51,9 +53,10 @@
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingfour">
+            <a href="<?php echo get_permalink('173'); ?>" class="personal_injury">Civil Litigation including Debt Collection</a>
             <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                <i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-               <a href="<?php echo get_permalink('180'); ?>">Civil Litigation including Debt Collection</a>
+                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
+               
             </h5>
             <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
               <div class="card-block">

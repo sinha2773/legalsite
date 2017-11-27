@@ -1,14 +1,22 @@
-<?php get_header(); ?>
+<?php 
+// Template Name: Area of practice template
+get_header(); 
+
+?>
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
-
+<?php if(!is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims','links'))): ?>	
 <section class="common_banner_section">
     <div class="common_banner_images">
       <?php the_post_thumbnail(); ?>
     </div>
 </section>
-
-
+<?php endif; ?>
+<?php if(is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims','links'))): ?>
+<section class="personal_injuri_banner">
+   
+</section>
+<?php endif; ?>
 
         <div class="default-page-container all_page_content">
             <div class="container">
@@ -26,11 +34,16 @@
 	                        		<?php get_sidebar(); ?>
 	                        	</div>
 	                        	<div class="col-md-8">
-	                        		
+	                        		<div class="overview_title">
+	                					<a href="#">Overview</a>
+	                					<a href="#faq" class="scrollto">FAQs</a>
+	                				</div>
 	                        		<div class="all_page_content_information">
 	                        			<?php the_content(); ?>
 	                        		</div>
-	                        		
+	                        		<?php if(!is_page(array('links'))){ ?>	
+	                        		<?php include('faq_section.php'); ?>
+	                        		<?php } ?>
 	                        	</div>
 	                        </div>
 	                    </div>

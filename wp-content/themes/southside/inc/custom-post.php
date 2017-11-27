@@ -1,18 +1,7 @@
 <?php 
 	function create_custom_post() {
 				
-		// register_post_type( 'area_of_practice',array(
-	 //  		'label'   => 'Area of Practice',
-	 //  		'labels'  => array(
-	 //  				'name' => 'Area of Practice',
-	 //  				'singular_name' => 'area',
-	 //  				'add_new' => 'New'	  				
-	 //  			),
-	 //  		'public' => true,
-	 //  		'menu_icon' => 'dashicons-images-alt',
-	 //  		'supports' => array('title','editor','thumbnail','custom-files','excerpt','custom-fields'),
-	 //  	)	    
-	 //  );		
+		
 		register_post_type( 'our_team',array(
 	  		'label'   => 'Our Team',
 	  		'labels'  => array(
@@ -55,19 +44,7 @@
 	add_action( 'init', 'create_custom_post' );
 
 	function create_custom_texonomy(){
-		
-		// register_taxonomy( 'practice_type', 'area_of_practice',
-
-		// 	array(
-		// 		'hierarchical' 	=> true,
-		// 		'label'        	=> 'Practice Texonomy',
-		// 		'query_var'    	=> true,
-		// 		'rewrite'		=>array(
-		// 				'slag'			=> 'area_of_practice_slag',
-		// 				'with_front'	=>false
-		// 			)
-		// 	)
-		// );		
+			
 	}
 
 	add_action('init','create_custom_texonomy');
