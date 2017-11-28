@@ -54,12 +54,17 @@
                                   <?php the_post_thumbnail(); ?>
                                 </div>                         
                                 <div class="solicitor_designation">
-                                  <h4><?php echo get_post_meta(get_the_ID(),'degree',true) ?></h4>
+                                  <h3><?php echo get_post_meta(get_the_ID(),'designation',true); ?></h3>
                                   <h2><?php the_title(); ?></h2>
-                                  <h3><?php echo get_post_meta(get_the_ID(),'designation',true) ?></h3>
-                                  <span><i class="fa fa-linkedin" aria-hidden="true"></i> <a href=""><?php echo get_post_meta(get_the_ID(),'linked_in',true) ?></a> </span>
-                                  <p>Email:<a href="mailto:wrc@southsidelegal.com.au"><?php echo get_post_meta(get_the_ID(),'email',true) ?></a>  
+                                  <h4><?php echo get_post_meta(get_the_ID(),'degree',true); ?></h4>
+                                  <p>Email:<a href="mailto:<?php echo get_post_meta(get_the_ID(),'email',true); ?>"><?php echo get_post_meta(get_the_ID(),'email',true); ?></a>  
                                       </p>
+                                  <?php
+                                  $linkdin = get_post_meta(get_the_ID(),'linked_in',true);
+                                  if ( !empty($linkdin) ){
+                                  ?>
+                                  <span><i class="fa fa-linkedin" aria-hidden="true"></i> <a href=""><?php echo $linkdin; ?></a> </span>
+                                  <?php } ?>
                                 </div>
                               </div>
                               <div class="soli_content">
