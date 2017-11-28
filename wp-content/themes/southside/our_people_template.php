@@ -63,7 +63,7 @@
                                   $linkdin = get_post_meta(get_the_ID(),'linked_in',true);
                                   if ( !empty($linkdin) ){
                                   ?>
-                                  <span><i class="fa fa-linkedin" aria-hidden="true"></i> <a href=""><?php echo $linkdin; ?></a> </span>
+                                  <span><i class="fa fa-linkedin" aria-hidden="true"></i> <a target="_blank" href="<?php echo $linkdin; ?>"><?php the_title();?></a> </span>
                                   <?php } ?>
                                 </div>
                               </div>
