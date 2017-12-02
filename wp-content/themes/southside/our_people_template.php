@@ -24,28 +24,25 @@
             <div class="container">
               <div class="main_abount_section">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12">
                         <?php get_sidebar(); ?>
                     </div>
                     <div class="single_side_margin">
-                      
-                      
-                      <div class="col-md-8">
+                      <div class="col-md-8 col-sm-12">
                         <div class="key_staf">
                           <h2>Key Staff</h2>
                         </div>
                         <?php 
-                        $p = new WP_Query(array(
-                            'post_type' => 'our_team',
-                            'posts_per_page' => -1,
-                            
-                        ));
-                      ?>
-                      <?php 
-                          if($p->have_posts()): 
-                          while($p->have_posts()): 
-                          $p->the_post();  
-                      ?>
+                          $p = new WP_Query(array(
+                              'post_type' => 'our_team',
+                              'posts_per_page' => -1,                            
+                          ));
+                        ?>
+                        <?php 
+                            if($p->have_posts()): 
+                            while($p->have_posts()): 
+                            $p->the_post();  
+                        ?>
                         <div class="row">
                           <div class="col-md-12">
                             <div class="solicitor_all_content">
@@ -69,24 +66,13 @@
                               </div>
                               <div class="soli_content">
                                 <?php the_content(); ?>
-                              </div>
-                              
-                            </div>
-                            
+                              </div>                              
+                            </div>                            
                           </div>
                           </div>
                           <?php endwhile; endif; ?>  
-                        </div>
-                        <!-- <div class="row">
-                          <div class="col-md-12">
-                            <div class="solicitor_details">
-                              <p><?php //the_content(); ?></p>
-                            </div>
-                          </div>
-                        </div>  -->
-                                           
+                        </div>            
                     </div>
-                  
                 </div>                    
                 </div>
               </div>

@@ -31,7 +31,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="row">
                     	
-                    	<div class="col-md-8 col-sm-8">
+                    	<div class="col-md-8 col-sm-12">
                             <div class="all_category_content">
                         		<div class="row">
                                     <?php if (have_posts()): while (have_posts()): the_post(); ?>
@@ -63,7 +63,7 @@ get_header();
                             </div>
                     	</div>
                     	
-                    	<div class="col-md-4">
+                    	<div class="col-md-4 col-sm-12">
 			               <div class="blog_right_sidebar">					                 
 			                 <div class="blog_right_sidebar_content">
 			                   <?php dynamic_sidebar('blog_right_sidebar'); ?>

@@ -24,75 +24,15 @@
           <div class="container">
             <div class="contact_page_information">
             <div class="row">
-              <div class="col-xs-12 col-sm-8 col-md-8">
+              <div class="col-xs-12 col-sm-12 col-md-8">
                 <div class="contactus_bottom_information">
                   
                   <?php echo do_shortcode( '[contact-form-7 id="170" title="Contact form 1"]'); ?>
 
-                  <!-- <form class="form-horizontal" action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-6 contact_left_div">
-                        <div class="form-group model">
-                          <label for="firstname" class=" label_bottom control-label">First name</label>
-                          <div class="">
-                            <input type="text" class=" form-control" name="firstname" id="firstname" placeholder="" >
-                          </div>
-                         
-                        </div>
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-md-6 contact_right_div">
-                          <div class="form-group">
-                            <label for="lastname" class=" label_bottom control-label">Last name</label>
-                            <div class="">
-                              <input type="text" class="form-control" name="lastname" id="lastname" placeholder="" >
-                            </div>
-                            
-                          </div>
-                      </div>
-                    </div> 
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-md-6 contact_left_div">
-                          <div class="form-group">
-                        <label for="firstname" class=" label_bottom control-label">Email Address</label>
-                        <div class="">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="" >
-                        </div>
-                        
-                        </div>
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-md-6 contact_right_div">
-                        <div class="form-group">
-                          <label for="lastname" class=" label_bottom control-label">Phone No</label>
-                          <div class="">
-                            <input type="text" class="form-control" name="phoneno" id="phoneno" placeholder="" >
-                          </div>
-                          
-                        </div>
-                      </div>
-                    </div> 
-                    <div class="form-group contact_right_div">
-                      <label for="lastname" class=" label_bottom control-label">Subject</label>
-                      <div class="">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="" >
-                      </div>
-                      
-                    </div>
-                    <div class="form-group contact_right_div">
-                      <label for="lastname" class=" label_bottom control-label">Message</label>
-                      <div class="">
-                        <textarea class="form-control" rows="7"></textarea>
-                      </div>
-                      
-                    </div>
-                    <div class="form-group">
-                      <div class="contact_button_div">
-                        <button type="submit" class=" contact_button">Send Message</button>
-                      </div>
-                    </div>
-                  </form> -->
+                 
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="main_left_contact_info">
                   <div class="contactus_information">
                     <h2>Contact Us</h2>

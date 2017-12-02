@@ -1,0 +1,264 @@
+@media screen and (max-width: 1024px) {
+	.nav>li>a {
+	    font-size: 10px;
+	    padding: 0px 5px;
+	}
+	.nav>li {
+	    margin-left: 0px;
+	}
+	.banner_section_content h2 {
+	    margin: 0px;
+	    font-size: 19px;
+	}
+	
+}
+@media screen and (max-width:991px) {
+	.banner_section_content_bottom {
+	    width: 100%;	    
+	}
+	.logo_image img {
+		width: 130px;
+		height: 40px;
+	}
+	.nav>li>a {
+	    padding: 0px 4px;
+	}
+	.socila_padding_left {
+	       padding: 10px 100px;
+	    border-left: 0px solid #555;
+	}
+	.socila_padding_both {
+	        padding: 10px 100px;
+	    border-left: 0px solid #555;
+	}
+	.social_padding_right {
+	        padding: 10px 100px;
+	    border-right: 0px solid #555;
+	    border-left: 0px solid #555;
+	}
+	.textwidget{
+		min-height: 62px;
+	}
+	.social_icon {
+	    
+	    border: 1px solid #666;
+	}
+	.home_and_hospital, .you_will_be, .no_win_to_fee, .sidebar_overseas_title, .textimonial_title h3 {	    
+	    font-size: 21px;	    
+	}
+	.sidebar_oversase_images_text p {
+	    
+	    font-size: 16px;
+	}
+	.what_we_do_information_title h3 {
+	    font-size: 40px;
+	   
+	}
+	.what_we_do_information_title p{
+		font-size: 17px;
+	}
+	.what_we_do_info h3 {
+	    font-size: 25px;
+	   
+	}
+	.what_we_do_info a {
+	    font-size: 21px;
+	    
+	}
+	.what_we_do_info {
+	    
+	    margin-bottom: 20px;
+	}
+	.compensation_law_content h3 {
+	  
+	    font-size: 20px;
+	}
+	.compensation_law_content p {
+	    
+	    font-size: 17px;
+	}
+	.blog_header_content {
+	   
+	    margin-top: 50px;
+	}
+	.blog_right_sidebar_content p {
+	    font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 799px){
+
+}
+
+@media screen and (max-width:768px) {		
+	.logo_image img {
+	    width: 135px;
+	    height: 35px;
+	}
+	.banner_section_content_margin_buttom {
+	   
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.banner_section_content {	    
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.banner_section_content h2 {
+	    
+	    font-size: 19px;
+	}
+}
+@media screen and (max-width: 767px){
+	.logo_image img {
+	    width: 170px;
+	    height: 40px;
+	}
+	.celebrate_year img {
+	    top: 22px;	    
+	}
+	.wellcome_text h3 {
+	    
+	    font-size: 25px;
+	}
+	.wellcome_text p {
+	    
+	    font-size: 18px;
+	    
+	}
+	.how_can_help_text h3 {
+	    
+	    font-size: 25px;
+	}
+	.how_can_help_text p{
+		font-size: 18px;
+	}
+	.sideber_title h3 {	    
+	    font-size: 25px;
+	   
+	}
+	.right_sideber_body p {	    
+	    font-size: 20px;	    
+	}
+	.right_sideber_body .quick_button {
+	    
+	    font-size: 25px;
+	    
+	}
+	.footer_information h3 {
+	    
+	    font-size: 35px;
+	}
+	.footer_short_discription p {
+	    text-align: justify;
+	    color: #BABABA;
+	    font-size: 18px;
+	}
+	.footer_information li {
+	    
+	    font-size: 18px;
+	    
+	}
+	.copyright p {
+	    
+	    font-size: 18px;
+	}
+	.soli_content p{
+		font-size: 17px;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	.audio_player h2 {
+	    
+	    font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.clear_advice h3 {
+	   
+	    font-size: 20px;
+	}
+	a.audfile {
+	   
+	    font-size: 11px;
+	}
+	.audio_player h2 {
+	    font-size: 11px;
+	}
+	.solicitor_images img {
+	    width: 379px;
+	    margin-bottom: 20px;
+	   
+	}
+	.solicitor_designation {
+	   
+	    margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.banner_section_content h2 {
+	    font-size: 19px;
+	}
+	.wellcome_text h3, .how_can_help_text h3, .sideber_title h3  {
+	    font-size: 19px;
+	}
+	.wellcome_text p, .how_can_help_text p {
+	    font-size: 15px;
+	}
+	.footer_information h3 {
+	    font-size: 28px;
+	}
+	.footer_information li {
+	    font-size: 16px;
+	}
+	.personal_injury {
+	   
+	    font-size: 16px;
+	}
+	.home_and_hospital, .you_will_be, .no_win_to_fee, .sidebar_overseas_title, .textimonial_title h3 {	    
+	    font-size: 17px;	    
+	}
+	.solicitor_images img {
+	    width: 100%;
+	    
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.right_sideber_body label {
+	    font-size: 16px;
+	}
+	.footer_short_discription p {
+	  
+	    font-size: 16px;
+	}
+	.copyright p {
+	    font-size: 15px;
+	}
+	.footer_information li {
+	    font-size: 12px;
+	}
+	.footer_information h3 {
+	    font-size: 25px;
+	}
+	.celebrate_year img {
+	    top: 22px;
+	    left: 74px;
+	}
+	.celebrate_year {
+	    margin-bottom: 30px;
+	}
+	.all_page_content_title h2 {
+	   
+	    font-size: 21px;
+	}
+	.personal_injury {
+	    font-size: 13px;
+	}
+
+}

@@ -24,10 +24,10 @@
             <div class="container">
               <div class="what_we_do_main">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12">
                         <?php get_sidebar(); ?>
                     </div>
-                    <div class="col-md-8">                      
+                    <div class="col-md-8 col-sm-12">                      
                       <div class="what_we_do_information">                            
                         <div class="what_we_do_information_title common_title_color">
                           <h3>What We Do</h3>

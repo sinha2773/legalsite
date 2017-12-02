@@ -24,10 +24,10 @@
             <div class="container">
               <div class="main_overseas_visitor">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12">
                         <?php get_sidebar(); ?>
                     </div>
-                    <div class="col-md-8">                      
+                    <div class="col-md-8 col-sm-12">                      
                       <div class="overseas_information">
                           <div class="overseas_content">
                             <h3>Overseas Visitors 海外旅客 海外からのお客様へ</h3>

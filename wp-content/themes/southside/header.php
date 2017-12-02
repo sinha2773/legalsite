@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/main.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/responsive.css">
        
         
         <script src="<?php echo get_template_directory_uri();?>/js/vendor/modernizr-2.8.3.min.js"></script>

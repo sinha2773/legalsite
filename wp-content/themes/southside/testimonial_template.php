@@ -23,10 +23,10 @@
             <div class="container">
                 <div class="main_abount_section">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12">
                       <?php get_sidebar(); ?>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-sm-12">
                         <div class="testimonial_information">    
                             <div class="testimonial_information_title common_title_color">
                                 <h3>Testimonials</h3>                                

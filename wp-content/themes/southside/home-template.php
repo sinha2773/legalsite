@@ -21,18 +21,18 @@
         </div>
         <div class="main_banner_section">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="banner_section_content banner_section_content_margin_buttom">
                         <h2><a href="<?php echo the_permalink('13'); ?>">Professional Negligence</a></h2>
                     </div>
                     
                 </div>
-                 <div class="col-md-4">
+                 <div class="col-md-4 col-sm-6">
                     <div class="banner_section_content">
                         <h2><a href="<?php echo the_permalink('166'); ?>">Personal Injury</a></h2>
                     </div>
                 </div>
-                 <div class="col-md-4">
+                 <div class="col-md-4 col-sm-12">
                     <div class="banner_section_content banner_section_content_margin_buttom">
                         <h2><a href="<?php echo the_permalink('168'); ?>">Deceased Estates & Wills</a></h2>
                     </div>
@@ -40,12 +40,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="banner_section_content banner_section_content_bottom">
                         <h2><a href="<?php echo the_permalink('173'); ?>">Civil Litigation including Debt Collection</a></h2>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="banner_section_content banner_section_content_bottom">
                         <h2><a href="<?php echo the_permalink('103'); ?>">Tourism Law</a></h2>
                     </div>
@@ -58,7 +58,7 @@
     <div class="container">
         
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <?php 
                     $home_link = new WP_Query(array(
                         'post_type' => 'page',
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-12">
                 <div class="about_information">
                     <?php the_content(); ?>
                     <div class="audio_information">
@@ -98,7 +98,7 @@
                 
                
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-12">
                 <div class="right_sideber">
                     <div class="sideber_title common_title_color">
                         <h3>Quick Enquiry Form</h3>
