@@ -167,6 +167,35 @@
 	.soli_content p{
 		font-size: 17px;
 	}
+	.navbar-nav {
+	    float: left; 
+	    
+	}
+	.navbar-default .navbar-nav>li>a {
+	   
+	    font-size: 18px;
+	   
+	}
+	.nav>li {
+	    margin-left: 20px;
+	    margin-top: 15px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    
+	    font-size: 16px;
+	}
+	.logo_image img {
+	    width: 100%;
+	    height: auto;
+	}
+	.bg_col {
+		position: absolute;
+		top: 15px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    margin-top: 17px;
+	    background: #fff;
+	}
 
 }
 
@@ -198,6 +227,9 @@
 	   
 	    margin-left: 20px;
 	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    font-size: 14px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
@@ -226,6 +258,16 @@
 	.solicitor_images img {
 	    width: 100%;
 	    
+	}
+	.bg_col {
+	   
+	    top: 0px;
+	}
+	.navbar-default .navbar-nav>li>a {
+	    font-size: 14px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    font-size: 12px;
 	}
 }
 

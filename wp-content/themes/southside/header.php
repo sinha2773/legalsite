@@ -53,7 +53,7 @@
                                   </button>
                                 </div>
                                 <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <div class="menu_container" id="">
                                   <?php 
                                   
                                   wp_nav_menu( array(
