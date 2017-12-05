@@ -2,48 +2,29 @@
             <div class="footer_top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 col-sm-6 socila_padding_left">
+                        <div class="col-md-4 col-sm-6 socila_padding_left">
                             <div class="social_icon social_facebook">
                                 <a href="<?php echo get_option('facebook_url');?>">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 socila_padding_both">
-                            <div class="social_icon social_twtter">
-                                <a href="<?php echo get_option('twitter_url');?>">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 socila_padding_both">
+                        </div>                        
+                        <div class="col-md-4 col-sm-6 socila_padding_both">
                             <div class="social_icon social_google_plus">
                                 <a href="<?php echo get_option('google_plus_url');?>">
                                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-6 socila_padding_both">
-                            <div class="social_icon social_dribbble">
-                                <a href="<?php echo get_option('dribbble_url');?>">
-                                    <i class="fa fa-dribbble" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 socila_padding_both">
+                        
+                        <div class="col-md-4 col-sm-6 social_padding_right">
                             <div class="social_icon social_linkedin">
                                 <a href="<?php echo get_option('linkedin_url');?>">
                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-6 social_padding_right">
-                            <div class="social_icon social_rss">
-                                <a href="">
-                                    <i class="fa fa-rss" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

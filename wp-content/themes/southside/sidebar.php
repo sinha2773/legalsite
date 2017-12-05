@@ -9,9 +9,21 @@
       <div id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
           <div class="card-header" role="tab" id="headingOne">
-            <h5> 
-              <a href="<?php echo get_permalink('13'); ?>">Professional Negligence</a> 
-            </h5>             
+            <a href="<?php echo get_permalink('13'); ?>" class="personal_injury">Professional Negligence</a>
+            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
+               
+            </h5>
+            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-block">
+                <ul>
+                  <li><a href="<?php echo get_permalink('257'); ?>">Medical practitioners</a></li>
+                  <li><a href="<?php echo get_permalink('259'); ?>">Solicitors</a></li>
+                  <li><a href="<?php echo get_permalink('261'); ?>">Other professions</a></li>
+                  
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
@@ -102,10 +114,12 @@
     <div class="sidebar_overseas_title common_title_color">
       <h3><a href="<?php echo get_permalink('33'); ?>">Overseas Visitors</a></h3>
     </div>
+    <?php if(!is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims'))){ ?>
     <div class="sidebar_oversase_images">
       <img src="<?php echo get_template_directory_uri();?>/images/visitor_pic.jpg">
       
     </div>
+    <?php } ?>
     <?php endif; ?>
     <div class="textimonial_title common_title_color">
       <h3>Testimonials</h3>
