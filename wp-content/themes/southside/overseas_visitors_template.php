@@ -2,24 +2,13 @@
  get_header();
  // Template Name: Overseas Visitor Template
 ?>
-    <?php 
-        $p = new WP_Query(array(
-            'post_type' => 'page',
-            'posts_per_page' => 1,
-            'page_id' =>33
-        ));
-    ?>
-    <?php 
-        if($p->have_posts()): 
-        while($p->have_posts()): 
-        $p->the_post();  
-    ?>
-        <section class="common_banner_section">
-            <div class="common_banner_images">
-              <?php the_post_thumbnail('testimonial-bg-image'); ?>
-            </div>
-        </section>
-    <?php endwhile; endif; ?>       
+   <?php if (have_posts()): while (have_posts()): the_post(); ?>
+  <section class="common_banner_section">
+    <div class="common_banner_images">
+      <?php the_post_thumbnail(); ?>
+    </div>
+</section>
+          
         <section class="about_section">
             <div class="container">
               <div class="main_overseas_visitor">
@@ -69,6 +58,8 @@
               </div>
             </div>
         </section>
+
+<?php endwhile; endif; ?> 
 <?php 
   get_footer();
 ?>

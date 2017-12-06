@@ -2,39 +2,32 @@
   <div class="right_sideber_buttons">
     <div class="sidebar_area_of_practice">
       <?php if(!is_page(array('what-we-do'))): ?>
-      <div class="area_title">
+      <!-- <div class="area_title">
         <h3>Areas of Practice</h3>
-      </div>
-      
-      <div id="accordion" role="tablist" aria-multiselectable="true">
+      </div> -->
+      <div>
         <div class="card">
-          <div class="card-header" role="tab" id="headingOne">
+          <?php if(is_page(array('professional-negligence','medical-practitioners','solicitors','other-professions'))): ?>
+          <div class="card-header">
             <a href="<?php echo get_permalink('13'); ?>" class="personal_injury">Professional Negligence</a>
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
-               
-            </h5>
-            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-              <div class="card-block">
+            <div>
+              <div>
                 <ul>
                   <li><a href="<?php echo get_permalink('257'); ?>">Medical practitioners</a></li>
                   <li><a href="<?php echo get_permalink('259'); ?>">Solicitors</a></li>
                   <li><a href="<?php echo get_permalink('261'); ?>">Other professions</a></li>
-                  
                 </ul>
               </div>
             </div>
           </div>
+          <?php endif; ?>
         </div>
         <div class="card">
-          <div class="card-header" role="tab" id="headingTwo">
+          <?php if(is_page(array('personal-injury','motor-vehicle-accidents','work-injuries','public-liability-claims','disability-insurance-claims'))){ ?>
+          <div class="card-header">
             <a href="<?php echo get_permalink('166'); ?>" class="personal_injury">Personal Injury</a>
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
-               
-            </h5>
-            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="card-block">
+            <div>
+              <div>
                 <ul>
                   <li><a href="<?php echo get_permalink('197'); ?>">Motor Vehicle Accidents</a></li>
                   <li><a href="<?php echo get_permalink('199'); ?>">Work Injuries</a></li>
@@ -44,16 +37,14 @@
               </div>
             </div>
           </div>
+          <?php } ?>
         </div>
         <div class="card">
-          <div class="card-header" role="tab" id="headingThree">
+          <?php if(is_page(array('deceased-estates-wills','wills-preparation','contesting-wills','deceased -estate-administration'))): ?>
+          <div class="card-header">
             <a href="<?php echo get_permalink('168'); ?>" class="personal_injury">Deceased Estates & Wills</a>
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
-               
-            </h5>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="card-block">
+            <div>
+              <div>
                 <ul>
                   <li><a href="<?php echo get_permalink('27'); ?>">Wills Preparation</a></li>
                   <li><a href="<?php echo get_permalink('29'); ?>">Contesting Wills</a></li>
@@ -62,16 +53,14 @@
               </div>
             </div>
           </div>
+        <?php endif; ?>
         </div>
         <div class="card">
-          <div class="card-header" role="tab" id="headingfour">
+          <?php if(is_page(array('civil-litigation-including-debt-collection','debt-collection','insurance-claims','contractual-disputes','consumer-protection','tpd-income-protection'))): ?>
+          <div class="card-header">
             <a href="<?php echo get_permalink('173'); ?>" class="personal_injury">Civil Litigation including Debt Collection</a>
-            <h5 class="mb-0" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                <div class="plus_minus"><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-minus" aria-hidden="true" style="display: none;"></i></div>
-               
-            </h5>
-            <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
-              <div class="card-block">
+            <div>
+              <div>
                 <ul>
                   <li><a href="<?php echo get_permalink('17'); ?>">Debt Collection</a></li>
                   <li><a href="<?php echo get_permalink('19'); ?>">Insurance Claims</a></li>
@@ -82,15 +71,16 @@
               </div>
             </div>
           </div>
+        <?php endif; ?>
         </div>
-        
         <div class="card">
+          <?php if(is_page(array('tourism'))): ?>
           <div class="card-header" role="tab" id="headingfive">
             <h5> 
               <a href="<?php echo get_permalink('103'); ?>">Tourism Law</a>
             </h5>
-            
           </div>
+          <?php endif; ?>
         </div>
       </div>
       <?php endif; ?>

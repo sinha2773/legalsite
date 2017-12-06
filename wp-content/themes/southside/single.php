@@ -28,14 +28,30 @@
 	                			<h2><?php the_title(); ?></h2>
 	                		</div>
 	                	</div>
-	                    <div class="col-md-12">
+	                    <div class="col-md-9">
 	                        <div class="all_page_content_information single_page_content">
 	                        	<div class="single_page_content_image">
 	                        		<?php the_post_thumbnail(); ?>
 	                        	</div>	                        
 	                        	<?php the_content(); ?>
+                                <div class="comment_div">
+                                    <?php 
+                                        if ( comments_open() || get_comments_number() ) :
+                                        comments_template();
+                                        endif;
+                                    ?>
+                                </div>
 	                        </div>
 	                    </div>
+                        <div class="col-md-3 col-sm-12">
+                           <div class="blog_right_sidebar">
+                             
+                             <div class="blog_right_sidebar_content">
+                               <?php dynamic_sidebar('blog_right_sidebar'); ?>
+                             </div>
+                             
+                           </div>
+                        </div>
 	                </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@
          </div>
          <div class="blog_body">
            <div class="row">
-             <div class="col-md-8 col-sm-12">
+             <div class="col-md-9 col-sm-12">
                <div class="blog_post_list">
                  <div class="row">
                   <?php
@@ -90,7 +90,7 @@
                
              </div>
             
-             <div class="col-md-4 col-sm-12">
+             <div class="col-md-3 col-sm-12">
                <div class="blog_right_sidebar">
                  
                  <div class="blog_right_sidebar_content">

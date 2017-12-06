@@ -940,8 +940,8 @@ div.wpcf7 .screen-reader-response {
 
 }
 .sideber_contact_form_icon{
-    /*width: 80px; */
-    /* height: 80px; */
+    width: 80px; 
+    height: 80px; 
     /* background: #eee; */
     /* border: 1px solid #eee; */
     color: #fff;
@@ -949,7 +949,7 @@ div.wpcf7 .screen-reader-response {
     /* padding: 12px 10px 0px 12px; */
     border-radius: 50%;
     position: fixed;
-    right: 19px;
+    right: 5px;
     bottom: 64px;
     z-index: 9999;
 }
@@ -962,8 +962,8 @@ div.wpcf7 .screen-reader-response {
     
 }
 .sideber_contact_form_icon img{
-        width: auto;
-    border-radius: 35px;
+        width: 100%;
+    /*border-radius: 35px;*/
 }
 .sideber_submit_button{
     text-align: center;
@@ -2043,6 +2043,178 @@ label {
     background: #fff;
     padding: 15px 20px;
 }
+#respond .comment-notes, #respond .logged-in-as {
+    font-size: 11px;
+    font-size: 11px;
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    color: #7f8c8d;
+}
+#respond .required {
+    margin-left: -14px;
+    margin-left: -4px;
+    padding-right: 14px;
+    padding-right: 1.4rem;
+    color: #f00;
+}
+#respond input[type=text], #respond #author, #respond #email, #respond #url, #respond #comment, .post-content form input[type=text], .post-content form input[type=email], .post-content form input[type=password], .post-content form input[type=url], .post-content form textarea {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-size:15px;
+}
+#respond input[type=text], #respond #author, #respond #email, #respond #url, .post-content form input[type=text], .post-content form input[type=email], .post-content form input[type=password], .post-content form input[type=url] {
+    padding: 5px 7px;
+    width: 100%;
+}
+#commentform input:invalid, #commentform textarea:invalid {
+    border-color: red;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: #f6e7eb;
+}
+#respond p.form-submit {
+    text-align: center;
+    margin-bottom: 19px;
+    margin-bottom: 1.9rem;
+}
+#respond #submit, .post-content form input[type=submit], .post-content form input[type=button] {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans","Lucida Sans Unicode","Lucida Grande",sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    padding: 7px 15px;
+}
+#reply-title {
+    font-family: "Varela","Lucida Sans Unicode","Lucida Grande",sans-serif;
+    font-size: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+}
+.logged-in-as a{
+        margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 
+#respond #comment, .post-content form textarea {
+    resize: none;
+    padding: 5px 7px;
+    padding: 0.5rem 0.7rem;
+    width: 100%;
+    height: 150px;
+    height: 15rem;
+    vertical-align: top;
+}
+#respond label, .post-content form label {
+    font-family: "Varela","Lucida Sans Unicode","Lucida Grande",sans-serif;
+    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    
+    margin-right: 10px;
+}
+#content, #content div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#respond, .post-content form {
+    margin: 40px 0;
+    margin: 4rem 0;
+    padding: 30px;
+    padding: 3rem;
+    background-color: #fcfcfc;
+    border: 1px solid #ecf0f1;
+    width: 100%;
+}
+
+.commentlist li.comment {
+        position: relative;
+    margin: 0;
+    padding: 20px;
+    clear: both;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.commentlist{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.commentlist li {
+    list-style-type: none;
+
+}
+.commentlist li.comment article[id*=comment-] {
+    background-color: #fcfcfc;
+    border: 1px solid #ecf0f1;
+    padding: 24px;
+    padding: 2.4rem;
+}
+.commentlist .vcard, .comment-meta {
+    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: "Varela","Lucida Sans Unicode","Lucida Grande",sans-serif;
+}
+.commentlist li.comment article[id*=comment-] img, .post-content img {
+    margin: 0 0 24px 0;
+    margin: 0 0 2.4rem 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.commentlist .vcard cite.fn {
+    font-weight: 400;
+    font-style: normal;
+}
+.commentlist .vcard cite.fn a {
+    text-decoration: none;
+    color: green;
+}
+.commentlist .vcard time, .comment-meta {
+    /*margin-left: 75px;*/
+    /* margin-left: 7.5rem; */
+    font-size: 11px;
+    font-size: 10px;
+    line-height: 20px;
+}
+#comments-title {
+    font-family: "Varela","Lucida Sans Unicode","Lucida Grande",sans-serif;
+    font-size: 21px;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin: 0 0 24px;
+    margin: 0 0 2.4rem;
+}
+.commentlist li.comment article[id*=comment-] {
+    background-color: #fcfcfc;
+    border: 1px solid #ecf0f1;
+    padding: 24px;
+   margin-bottom: 30px;
+}
+.comment_div{
+    margin-top: 30px;
+}
+.{}
+.{}
+.{}
 
 /*============================= Contact us Page End =============================*/
