@@ -940,16 +940,16 @@ div.wpcf7 .screen-reader-response {
 
 }
 .sideber_contact_form_icon{
-        width: 80px;
-    height: 80px;
-    background: #eee;
-    border: 1px solid #eee;
+    /*width: 80px; */
+    /* height: 80px; */
+    /* background: #eee; */
+    /* border: 1px solid #eee; */
     color: #fff;
     font-size: 40px;
-    padding: 12px 10px 0px 12px;
+    /* padding: 12px 10px 0px 12px; */
     border-radius: 50%;
     position: fixed;
-    right: 8px;
+    right: 19px;
     bottom: 64px;
     z-index: 9999;
 }
@@ -959,13 +959,11 @@ div.wpcf7 .screen-reader-response {
 }
 .sideber_contact_form_icon:hover{
     cursor: pointer;
-    background:#eee;
-    color: #fff;
-    border: 1px solid #eee;
-
+    
 }
 .sideber_contact_form_icon img{
-    width: 100%;
+        width: auto;
+    border-radius: 35px;
 }
 .sideber_submit_button{
     text-align: center;

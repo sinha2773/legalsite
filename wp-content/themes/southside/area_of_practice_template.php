@@ -35,8 +35,15 @@ get_header();
 	                        	</div>
 	                        	<div class="col-md-8 col-sm-12">
 	                        		<div class="overview_title">
+	                        			<?php if(is_page(array('deceased-estates-wills'))){ ?>	
+	                					<a href="#" class="scrollto">Wills & Estate Administration</a>
+	                					<a href="#" class="scrollto">Contesting Wills</a>
+	                					<?php } ?>
+	                					<?php if(!is_page(array('deceased-estates-wills'))){ ?>	
 	                					<a href="#">Overview</a>
+	                					<?php } ?>
 	                					<a href="#faq" class="scrollto">FAQs</a>
+
 	                				</div>
 	                        		<div class="all_page_content_information">
 	                        			<?php the_content(); ?>

@@ -36,7 +36,7 @@
                 <div class="main_left_contact_info">
                   <div class="contactus_information">
                     <h2>Contact Us</h2>
-                    <strong>Southside Legal</strong>
+                    <strong>Southside Legal Gold Coast</strong>
                     <p>First Floor<br/>427 Golden Four Dve<br/>PO Box 150,Tugun, 4224<br/> Gold Coast, QLD<br/> Queensland<br/> Australia </p>
                     <p>Tel: 07 5598 3266</p>
                     <p>Int'l: +617 5598 3266</p>
@@ -47,7 +47,7 @@
                   <div class="contact_page_socialicon">
                     <a href="#"><i class="fa fa-linkedin"></i></a>
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
                   </div>
                 </div>
               </div>

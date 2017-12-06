@@ -76,6 +76,8 @@
                   <li><a href="<?php echo get_permalink('17'); ?>">Debt Collection</a></li>
                   <li><a href="<?php echo get_permalink('19'); ?>">Insurance Claims</a></li>
                   <li><a href="<?php echo get_permalink('21'); ?>">Contractual Disputes</a></li>
+                  <li><a href="<?php echo get_permalink('266'); ?>">Consumer Protection</a></li>
+                  <li><a href="<?php echo get_permalink('268'); ?>">TPD & Income Protection</a></li>
                 </ul>
               </div>
             </div>
