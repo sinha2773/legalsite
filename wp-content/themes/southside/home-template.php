@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="banner_section_content banner_section_content_margin_buttom">
-                        <h2><a href="<?php echo the_permalink('13'); ?>">Professional Negligence</a></h2>
+                        <h2><a href="<?php echo the_permalink('13'); ?>">Professional Negligence including medical negligence</a></h2>
                     </div>
                     
                 </div>

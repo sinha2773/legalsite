@@ -55,8 +55,10 @@
                             </div>
                             <?php endwhile; endif; ?>
                            
-                        </div>                        
-                    </div>                    
+                        </div>
+                        
+                    </div> 
+                                       
                 </div>
                 </div>
             </div>

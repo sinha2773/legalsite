@@ -9,7 +9,7 @@
         <div class="card">
           <?php if(is_page(array('professional-negligence','medical-practitioners','solicitors','other-professions'))): ?>
           <div class="card-header">
-            <a href="<?php echo get_permalink('13'); ?>" class="personal_injury">Professional Negligence</a>
+            <a href="<?php echo get_permalink('13'); ?>" class="personal_injury">Professional Negligence including medical negligence</a>
             <div>
               <div>
                 <ul>

@@ -122,7 +122,7 @@
 	}
 	.celebrate_year img {
 	    top: 22px;
-	    left: 300px;	    
+	    left: 280px;	    
 	}
 	.celebrate_year {
 	    margin-bottom: 30px;
@@ -210,7 +210,9 @@
     	right: 37px;
     	top: -80px;
 	}
-	.top_header_content ul{}
+	.top_header_content ul{
+    	margin-top: 30px;
+	}
 	.top_header_content ul li{
 		float: left;
 		margin-left: 10px;
@@ -274,7 +276,25 @@
 	}
 
 }
+@media screen and (max-width: 420px){
+	.celebrate_year img {
+	    left: 104px;
+	}
+	.top_header_content {
+	     position: unset; 
+	    
+	}
+	.top_header_content ul {
+	     float: unset; 
+	    
+	}
+	.faul{
+		    top: -53px;
+    position: absolute;
+    right: 0;
+	}
 
+}
 @media only screen and (max-width: 360px) {
 	.banner_section_content h2 {
 	    font-size: 19px;
@@ -322,7 +342,7 @@
 	.faul{
 		position: absolute;
 		right: 0px;
-		top: -35px;
+		top: -53px;
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	    margin-top: 7px;
@@ -332,6 +352,11 @@
 	     position: unset; 
 	    
 	}
+	.top_header_content ul {
+	     float: unset; 
+	    
+	}
+	
 }
 
 @media only screen and (max-width: 320px) {
@@ -366,7 +391,18 @@
 	    font-size: 13px;
 	}
 	.top_header_content ul li {
-	    margin-left: 2px;
+	    margin-left: 4px;
+	}
+	.top_header_menu img {
+	    margin-right: 4px;
+	}
+	.top_header_content ul {
+	     float: unset; 
+	    
+	}
+	.faul {
+   
+	    top: -53px;
 	}
 
 }

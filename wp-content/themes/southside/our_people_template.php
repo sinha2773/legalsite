@@ -70,7 +70,11 @@
                             </div>                            
                           </div>
                           </div>
-                          <?php endwhile; endif; ?>  
+                          <?php endwhile; endif; ?>
+                          <div class="compensation_law_content common_title_color">
+                            <h3>Make A Free Enquiry</h3>
+                            Call us now on<b> 07 5598 3266</b> or complete the <b>Quick Enquiry</b> on the right hand side of this page and we will be delighted to help you.
+                            </div>  
                         </div>            
                     </div>
                 </div>                    
