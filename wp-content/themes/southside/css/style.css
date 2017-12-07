@@ -61,6 +61,7 @@
 .navbar {
     
     margin-bottom: 0px;
+    float: right;
     
 }
 .navbar-default .navbar-nav>li>a {
@@ -113,8 +114,18 @@
     z-index: 99999;
     margin-top: -40px;
 }
+.top_header_content{
+    /*float: right !important;*/
+}
+.top_header_content ul{
+        float: right;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .top_header_menu li{
     margin-left: 15px;
+    float: left;
+    list-style-type: none;
 }
 .top_header_menu img{
     margin-right: 10px;
@@ -126,6 +137,7 @@
 .top_header_menu li a:hover{
     background: #FFFFFF;
     color: #811e02 ;
+    cursor: pointer;
 }
 #span_left_margin{
 	margin-left: 5px;

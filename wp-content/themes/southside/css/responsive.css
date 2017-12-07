@@ -215,6 +215,10 @@
 		float: left;
 		margin-left: 10px;
 	}
+	.navbar {
+	    margin-bottom: 0px;
+	     float: unset; 
+	}
 
 }
 
@@ -226,6 +230,10 @@
 	.celebrate_year img {
 	    
 	    left: 250px;
+	}
+	.top_header_content {
+	   
+	    top: -65px;
 	}
 }
 
@@ -258,11 +266,11 @@
 	}
 	.top_header_content ul li {
 	  
-	    margin-left: 1px;
+	    margin-left: 8px;
 	}
 	.top_header_content {
-	    
-	    top: -60px;
+	    top: 0px;
+	    right: 160px;
 	}
 
 }
@@ -320,6 +328,10 @@
 	    margin-top: 7px;
 	    background: #fff;
 	}
+	.top_header_content {
+	     position: unset; 
+	    
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -352,6 +364,9 @@
 	}
 	.personal_injury {
 	    font-size: 13px;
+	}
+	.top_header_content ul li {
+	    margin-left: 2px;
 	}
 
 }

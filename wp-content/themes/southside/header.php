@@ -35,7 +35,7 @@
                         </div>
                         <div class="bg_col col-xs-12 col-sm-10 col-md-8 pull-right">
                           <div class="top_header_content">
-                            <ul class="nav navbar-nav top_header_menu">
+                            <ul class="top_header_menu">
                               <li><a href="<?php echo the_permalink('33'); ?>"><img src="<?php echo get_template_directory_uri();?>/images/en_US.png">English</a></li>
                               <li><a href="<?php echo the_permalink('147'); ?>"><img src="<?php echo get_template_directory_uri();?>/images/cn.png">Chinese</a></li>
                               <li><a href="<?php echo the_permalink('149'); ?>"><img src="<?php echo get_template_directory_uri();?>/images/jp.png">Japanese</a></li>
