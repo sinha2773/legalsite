@@ -83,7 +83,7 @@
                  <div class="main-pagination pull-right">
                   <?php 
                   if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $all_blog_post )); }  
-                  // if(function_exists('wp_pagenavi')) { wp_pagenavi(); }  
+                  
                   ?>
               </div>
                </div>

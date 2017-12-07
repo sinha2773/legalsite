@@ -45,9 +45,10 @@
                     <p><a href="http://www.southsidelegal.com.au/">www.southsidelegal.com.au</a></p>
                   </div>
                   <div class="contact_page_socialicon">
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                    <a href="<?php echo get_option('facebook_url');?>"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="<?php echo get_option('google_plus_url');?>"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="<?php echo get_option('linkedin_url');?>"><i class="fa fa-linkedin"></i></a>
+                    
                   </div>
                 </div>
               </div>

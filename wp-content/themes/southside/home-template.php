@@ -112,19 +112,7 @@
                         <p class="text_center">Free Enquiry, no obligation</p>
                             <h3 class="text_center">07 5598 3266</h3>
                         <?php echo do_shortcode( '[contact-form-7 id="193" title="Quick Contact"]'); ?>
-                        <!-- <form>
-                            
-                            <input type="text" class="form-control" name="" placeholder="Name">
-                            <input type="email" class="form-control" name="" placeholder="E-mail">
-                            <input type="text" class="form-control" name="" placeholder="Phone">
-                            <textarea class="form-control" rows="4" placeholder="Details"></textarea>
-                            <label class="control-label">Security Code</label>
-                            <input type="text" class="form-control" name="" placeholder="">
-                            <h3 class="will_go_h3">We will get back to you quickly</h3>
-                            <div class="submit_button">
-                                <button type="submit" class="btn btn-success">Submit</button>
-                            </div>
-                        </form> -->
+                        
                     </div>
                 </div>
             </div>

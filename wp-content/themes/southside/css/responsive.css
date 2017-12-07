@@ -8,7 +8,7 @@
 	}
 	.banner_section_content h2 {
 	    margin: 0px;
-	    font-size: 19px;
+	    font-size: 16px;
 	}
 	
 }
@@ -84,6 +84,11 @@
 	.blog_right_sidebar_content p {
 	    font-size: 30px;
 	}
+	.common_banner_images img {
+	    width: 100%;
+	    height: auto;
+	    margin-top: 15px;
+	}
 
 }
 
@@ -116,7 +121,11 @@
 	    height: 40px;
 	}
 	.celebrate_year img {
-	    top: 22px;	    
+	    top: 22px;
+	    left: 300px;	    
+	}
+	.celebrate_year {
+	    margin-bottom: 30px;
 	}
 	.wellcome_text h3 {
 	    
@@ -189,12 +198,22 @@
 	    height: auto;
 	}
 	.bg_col {
-		position: absolute;
-		top: 15px;
+		/*position: absolute;
+		top: 15px;*/
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	    margin-top: 17px;
 	    background: #fff;
+	}
+	.top_header_content{
+		position: absolute;
+    	right: 37px;
+    	top: -80px;
+	}
+	.top_header_content ul{}
+	.top_header_content ul li{
+		float: left;
+		margin-left: 10px;
 	}
 
 }
@@ -203,6 +222,10 @@
 	.audio_player h2 {
 	    
 	    font-size: 15px;
+	}
+	.celebrate_year img {
+	    
+	    left: 250px;
 	}
 }
 
@@ -230,6 +253,18 @@
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	    font-size: 14px;
 	}
+	.celebrate_year img {
+	    left: 158px;
+	}
+	.top_header_content ul li {
+	  
+	    margin-left: 1px;
+	}
+	.top_header_content {
+	    
+	    top: -60px;
+	}
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -268,6 +303,22 @@
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	    font-size: 12px;
+	}
+	.celebrate_year img {
+	    left: 95px;
+	}
+	.top_header_content {
+	    top: -21px;
+	    left: 24px;
+	}
+	.faul{
+		position: absolute;
+		right: 0px;
+		top: -35px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    margin-top: 7px;
+	    background: #fff;
 	}
 }
 

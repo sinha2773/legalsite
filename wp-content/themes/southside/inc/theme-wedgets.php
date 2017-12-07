@@ -23,6 +23,7 @@
 				'after_title'   => '</p>',
 
 		));
+		
 	}
 	add_action('widgets_init','create_custom_wedgets');
 

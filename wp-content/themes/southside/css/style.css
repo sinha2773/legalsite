@@ -744,6 +744,9 @@ div.wpcf7 .screen-reader-response {
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.common_inquery{
+    margin-top: 20px;
+}
 .compensation_law_content h3{
     margin-top: 0px;
 }
@@ -1938,6 +1941,11 @@ ul.dropdown-menu li:hover.menu-item-has-children::before {
 .contact_page_socialicon i.fa-facebook:hover{
 background: #3B5997;
     border: 1px solid #3B5997;
+    color: #fff;
+}
+.contact_page_socialicon i.fa-google-plus:hover{
+    background: #CE4B3C;
+    border: 1px solid #CE4B3C;
     color: #fff;
 }
 .margin_left{
