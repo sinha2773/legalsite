@@ -28,12 +28,12 @@
                     
                 </div>
                  <div class="col-md-4 col-sm-6">
-                    <div class="banner_section_content">
+                    <div class="banner_section_content banner_text_padding">
                         <h2><a href="<?php echo the_permalink('166'); ?>">Personal Injury</a></h2>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-12">
-                    <div class="banner_section_content banner_section_content_margin_buttom">
+                    <div class="banner_section_content banner_section_content_margin_buttom banner_text_padding">
                         <h2><a href="<?php echo the_permalink('168'); ?>">Deceased Estates & Wills</a></h2>
                     </div>
                     
@@ -41,17 +41,17 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                    <div class="banner_section_content banner_section_content_bottom">
+                    <div class="banner_section_content banner_section_content_bottom banner_text_padding">
                         <h2><a href="<?php echo the_permalink('29'); ?>">Contesting Wills</a></h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="banner_section_content banner_section_content_bottom">
+                    <div class="banner_section_content banner_section_content_bottom banner_text_padding">
                         <h2><a href="<?php echo the_permalink('173'); ?>">Civil Litigation including Debt Collection</a></h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="banner_section_content banner_section_content_bottom">
+                    <div class="banner_section_content banner_section_content_bottom banner_text_padding">
                         <h2><a href="<?php echo the_permalink('103'); ?>">Tourism Law</a></h2>
                     </div>
                 </div>

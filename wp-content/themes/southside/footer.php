@@ -51,7 +51,7 @@
           
         </div>
         <div class="sideber_contact_form_icon quote_form_button"  data-toggle="tooltip" title="Click here to Quick Contact">
-            <img src="<?php echo get_template_directory_uri();?>/images/consul.png">
+            <img src="<?php echo get_template_directory_uri();?>/images/qcontact.png">
             <!-- <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
         </div>  
         <div class="scrolltoup" style="">

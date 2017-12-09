@@ -210,6 +210,9 @@
 .banner_section_content_margin_buttom{
     margin-bottom: 30px;
 }
+.banner_text_padding{
+    padding-top: 42px;
+}
 .celebrate_year{
    
 }
@@ -957,8 +960,8 @@ div.wpcf7 .screen-reader-response {
 
 }
 .sideber_contact_form_icon{
-    width: 80px; 
-    height: 80px; 
+        width: 111px;
+    height: auto;
     /* background: #eee; */
     /* border: 1px solid #eee; */
     color: #fff;
@@ -980,7 +983,8 @@ div.wpcf7 .screen-reader-response {
 }
 .sideber_contact_form_icon img{
         width: 100%;
-    /*border-radius: 35px;*/
+    /* border-radius: 10px; */
+    height: auto;
 }
 .sideber_submit_button{
     text-align: center;
