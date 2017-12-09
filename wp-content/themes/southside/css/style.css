@@ -641,6 +641,7 @@ div.wpcf7 .screen-reader-response {
 
 .testimonial_information{
     margin: 20px 0px;
+        overflow: hidden;
 }
 .testimonial_information_title{
     background: #F8F8F8;

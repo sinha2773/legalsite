@@ -56,7 +56,22 @@
                             <?php endwhile; endif; ?>
                            
                         </div>
-                        
+                        <?php 
+                          $free_unquery = new WP_Query(array(
+                              'post_type' => 'page',
+                              'posts_per_page' => 1,
+                              'page_id' =>74                            
+                          ));
+                        ?>
+                        <?php 
+                            if($free_unquery->have_posts()): 
+                            while($free_unquery->have_posts()): 
+                            $free_unquery->the_post();  
+                        ?>
+                        <div class="testimonial_free_enquiry">
+                            <?php the_content(); ?>
+                        </div>
+                        <?php endwhile; endif; ?>
                     </div> 
                                        
                 </div>

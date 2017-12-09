@@ -87,10 +87,23 @@
                   ?>
               </div>
                </div>
-               <div class="compensation_law_content common_title_color common_inquery">
-                <h3>Make A Free Enquiry</h3>
-                Call us now on<b> 07 5598 3266</b> or complete the <b>Quick Enquiry</b> on the right hand side of this page and we will be delighted to help you.
-                </div>
+               <?php 
+                  $free_unquery = new WP_Query(array(
+                      'post_type' => 'page',
+                      'posts_per_page' => 1,
+                      'page_id' =>42                            
+                  ));
+                ?>
+                <?php 
+                    if($free_unquery->have_posts()): 
+                    while($free_unquery->have_posts()): 
+                    $free_unquery->the_post();  
+                ?>
+               <div class="blog_free_enquiry">
+                 <?php the_content(); ?>
+               </div>
+              <?php endwhile; endif; ?>
+               
              </div>
             
              <div class="col-md-3 col-sm-12">
