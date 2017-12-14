@@ -1,7 +1,7 @@
 <!doctype.php>
 <html <?php language_attributes(); ?>
     <head>
-        <meta charset="<?php bloginfo( 'charset' ); ?>>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         
         <meta name="description" content="">
